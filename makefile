@@ -1,7 +1,7 @@
-omg:	omg.o
-	gcc -o omg omg.o
-omg.o	:omg.c
-	gcc -c omg.c
+omgg:	omgg.o
+	gcc -o omgg omgg.o
+omgg.o	:omgg.c
+	gcc -c omgg.c
 
 clean:
 	rm *.o
